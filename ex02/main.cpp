@@ -6,7 +6,7 @@
 /*   By: zwong <zwong@student.42kl.edu.my>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/26 13:01:40 by zwong             #+#    #+#             */
-/*   Updated: 2023/05/26 13:02:18 by zwong            ###   ########.fr       */
+/*   Updated: 2023/05/31 17:24:49 by zwong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 #include <iostream>
 #include <iomanip>
 
+// Learning: reference used often in functions when change is needed
+// (diff vs ptr is that reference cannot be changed to point to another var, while ptr can)
 int main(void) {
 	std::string str = "HI THIS IS BRAIN";
 	std::string *stringPTR = &str;
